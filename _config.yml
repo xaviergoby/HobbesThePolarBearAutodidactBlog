@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Xavier Goby"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile_picture.jpg"
   bio    : "HobbesThePolarBears Dev Blog"
   links:
     - label: "Website"
