@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: MM # The name of your site. Is used throughout the theme in places like the site masthead and <title> tags.
 email: xgoby@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Xavier Goby"
+  name   : "Xavier Goby" # Used to assign a site author. Don’t worry, you can override the site author with different ones on specific posts, pages, or collection documents.
   avatar : "/assets/images/profile_picture.jpg"
   bio    : "HobbesThePolarBears Dev Blog"
   links:
@@ -75,6 +75,11 @@ author:
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
 
+
+# Site scriptsPermalink
+  #Add scripts to the <head> or closing </body> elements by assigning paths to either head_scripts and/or footer_scripts.
+  #
+  #For example, to add a CDN version of jQuery to page’s head along with a custom script you’d do the following:
 footer:
   links:
     - label: "LinkedIn"
@@ -106,6 +111,26 @@ defaults:
     values:
       layout: single
       author_profile: true
+#  # _portfolio
+#  - scope:
+#      path: ""
+#      type: portfolio
+#    values:
+#      layout: single
+#      author_profile: false
+#      share: true
+  # _docs
+#  - scope:
+#      path: ""
+#      type: docs
+#    values:
+#      layout: single
+#      read_time: false
+#      author_profile: false
+#      share: false
+#      comments: false
+#      sidebar:
+#        nav: "docs"
 
 category_archive:
   type: liquid
