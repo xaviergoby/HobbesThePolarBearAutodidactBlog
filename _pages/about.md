@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 header:
-    overlay_image: /assets/animals_hero_polar_bear_1.jpg
+    overlay_image: /assets/images/animals_hero_polar_bear_1.jpg
 ---
 
 I am an Irish/Norwegian currently completing his Bachelors degree in Aerospace Engineering in addition to having completed a minor in Computer Science with a track in Big Data & Artificial
